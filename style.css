@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    height: 100vh;
+    /* Pink gradient background */
+    background: linear-gradient(to bottom, #f28fae, #AB274F);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #000000; /* black font */
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    gap: 40px;
+}
+
+.logo-item {
+    text-align: center;
+    color: #000000; /* black font */
+}
+
+.logo-item img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.logo-item img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.logo-item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
